@@ -7,6 +7,7 @@ function App() {
   const [isLoading, setIsLoading] = useState(true);
   const [term, setTerm] = useState("");
 
+  
   useEffect(() => { 
     fetch(`https://pixabay.com/api/?key=${import.meta.env.VITE_APP_PIXABAY_API_KEY}&q=${term}&image_type=photo&pretty=true`)
     .then(res => res.json())
