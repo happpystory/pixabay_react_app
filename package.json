@@ -1,4 +1,5 @@
 {
+  "homepage": ".",
   "name": "image-gallery-react-app",
   "private": true,
   "version": "0.0.0",
